@@ -1,0 +1,37 @@
+/* line 1, scss/_resets.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 30, scss/style.scss */
+body {
+  background: #363535;
+  font-weight: 400; }
+
+/* line 35, scss/style.scss */
+.content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  /* line 41, scss/style.scss */
+  .content .content__text1, .content .content__text2 {
+    color: #b3aeae; }
+    /* line 43, scss/style.scss */
+    .content .content__text1:hover, .content .content__text2:hover {
+      color: #7bb5db; }
+  @media (max-width: 800px) {
+    /* line 35, scss/style.scss */
+    .content {
+      flex-direction: column; } }
+  /* line 55, scss/style.scss */
+  .content .content__text2:hover {
+    color: #ffee00; }
+
+/* line 61, scss/style.scss */
+.light {
+  background-color: white;
+  color: black; }
